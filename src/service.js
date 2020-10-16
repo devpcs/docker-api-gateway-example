@@ -12,7 +12,7 @@ if (!dockerOpts.socketPath) {
         dockerOpts.socketPath = '/var/run/docker.sock';
     }
 }
-var httpPort = process.env.HTTP_HOST || 8080;
+var httpPort = process.env.HTTP_HOST || 8009;
 
 // available routes collection
 var routes = {
